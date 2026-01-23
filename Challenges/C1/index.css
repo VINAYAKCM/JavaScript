@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(45, 45, 45);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    font-size:16px;
+    border-radius:5px;
+}
+
+button:active{
+    transform: scale(0.97);
+}
+
+p{
+    color: white;
+    font-weight: 500;
+}
