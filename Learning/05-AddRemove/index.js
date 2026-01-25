@@ -50,7 +50,12 @@ function addEvent() {
   renderList();
 }
 
-// 5. Remove event logic
+// 5. Remove event logic - For each event in the array, 
+// it checks if event.id is not equal (!==) to the id 
+// passed to the removeEvent function. If the condition 
+// is true (i.e., the IDs don't match), the event is 
+// kept in the new array. If false (IDs match), the 
+// event is excluded.
 function removeEvent(id) {
   events = events.filter(event => event.id !== id);
   renderList();

@@ -1,0 +1,45 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.app {
+  width: 320px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+}
+
+input{
+  width: 50%;
+  height: 25px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.confirmBtn{
+  margin-left: 40px;
+}
+
+.cancelBtn{
+  margin-left: 10px;
+}
