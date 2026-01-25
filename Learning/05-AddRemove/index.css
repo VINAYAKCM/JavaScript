@@ -1,0 +1,29 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.app {
+  width: 320px;
+}
+
+button {
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.app {
+  width: 320px;
+}
+
+.event {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+}
+
+.event.selected {
+  background-color: #444;
+}
+.event:hover {
+  background-color: #505050;
+}
