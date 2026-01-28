@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(43, 41, 41);
+    align-items: center;
+}
+
+.app{
+    width: 320px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#toggleButton{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#list div,
+#list p {
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+  color: white;
+  padding-top: 12px;
+}
