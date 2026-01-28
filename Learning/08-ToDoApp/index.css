@@ -1,0 +1,35 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.app {
+  width: 320px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+}

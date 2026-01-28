@@ -12,6 +12,7 @@ const events = [
 
 // State
 let filteredEvents = events;
+let toggleMumbai = false;
 
 // Render function (UI only)
 function renderList(items) {
@@ -38,10 +39,10 @@ renderList(filteredEvents);
 input.addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase();
 
-  filteredEvents = events.filter(event =>
+  filteredEvents = events.filter(event => {
     event.name.toLowerCase().includes(query) ||
     event.city.toLowerCase().includes(query)
-  );
+});
 
   renderList(filteredEvents);
 });
